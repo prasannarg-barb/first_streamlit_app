@@ -1,16 +1,11 @@
 import streamlit as st
 
-streamlit.title("Welcome to our Data App")
+st.title("Welcome to our Data App")
 
-streamlit.header("Header Text")
-streamlit.text("Plain Text1")
-streamlit.text("Plain Text2")
-streamlit.text("Plain Text3")
-
-
-name = input("Enter your name: ")
-print("Hello " + name + " !")
-
+st.header("Header Text")
+st.text("Plain Text1")
+st.text("Plain Text2")
+st.text("Plain Text3")
 
 TQ_curr_price = st.number_input('Enter TQ Current Price:')
 TQ_target_price = st.number_input('Enter TQ Target Price:')
