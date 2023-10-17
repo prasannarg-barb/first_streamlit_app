@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Welcome to our Data App")
+st.title("Welcome to Barb Data App")
 
 st.header("Barb IB Calc", divider='rainbow')
 
