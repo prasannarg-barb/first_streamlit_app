@@ -2,10 +2,11 @@ import streamlit as st
 
 st.title("Welcome to our Data App")
 
-st.header("Header Text")
-st.text("Plain Text1")
-st.text("Plain Text2")
-st.text("Plain Text3")
+st.header("Barb IB Calc")
+
+#st.text("Plain Text1")
+#st.text("Plain Text2")
+#st.text("Plain Text3")
 
 TQ_curr_price = st.number_input('Enter TQ Current Price:')
 TQ_target_price = st.number_input('Enter TQ Target Price:')
