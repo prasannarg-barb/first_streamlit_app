@@ -1,6 +1,6 @@
 import streamlit
 
-streamlit.title("Snowflake - Streamlit : Healthy Food Restaurant"
+streamlit.title("Snowflake - Streamlit : Healthy Food Restaurant")
 
 streamlit.header('Breakfast Menu')
                 
