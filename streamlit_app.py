@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Welcome to our Data App")
 
-st.header("Barb IB Calc")
+st.header("Barb IB Calc", divider='rainbow')
 
 #st.text("Plain Text1")
 #st.text("Plain Text2")
@@ -14,4 +14,4 @@ QLD_curr_price = st.number_input('Enter QLD Current Price:')
 QLD_target_price = QLD_curr_price+ (((TQ_target_price - TQ_curr_price ) / TQ_curr_price)*(2/3)*QLD_curr_price)
 
 #display_QLD_msg = 'The QLD Target Price is::' + QLD_target_price
-st.header('The QLD Target Price is::' + QLD_target_price)
+st.write('The QLD Target Price is::' + QLD_target_price)
